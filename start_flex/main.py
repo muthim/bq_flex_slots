@@ -27,7 +27,7 @@ def purchase_commitment(slots):
     return commit.name
 
 
-def create_reservation(reservation_name, reservation_slots=500):
+def create_reservation(reservation_name, reservation_slots=100):
     """
     Create a reservation with a specific amount of slots (reservation_slots must be lower than remaining slots available).
     :param reservation_name: Name of the reservation.
